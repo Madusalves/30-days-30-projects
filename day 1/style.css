@@ -11,19 +11,23 @@ body{
     background-color:#283145 ;
 }
 
+.madeby{
+    margin-top: 50px;
+    padding: 10px 25px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
 .logo{
     height: 20px;
     width: 20px;
     margin: 20px;
     cursor: pointer;
     transition:.5s ease all;
-    position: relative;
-    top:-2px;
-
 }
 
 .card{
-    transition:.5s ease all;
+    transition: 0.1em; 
     width: 100%;
     max-width: 470px;
     background: linear-gradient(135deg, #192642, #5888f6);
@@ -32,7 +36,9 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    height: 650px;
+    
 }
 
 
