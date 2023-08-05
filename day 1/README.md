@@ -1,5 +1,9 @@
 # App de Previsão do Tempo: Fique à Frente do Clima com Atualizações em Tempo Real
 
+
+![image](https://github.com/Madusalves/30-days-30-projects/assets/111824481/29920bb0-c4f3-445d-881b-6f8f6b3b48e4)
+
+
 O App de Previsão do Tempo é uma ferramenta essencial para quem deseja se manter informado sobre as constantes mudanças nas condições climáticas. Com sua interface amigável e informações atualizadas, este aplicativo oferece uma experiência perfeita para os usuários acompanharem previsões do tempo, alertas e condições em tempo real em sua região local ou em qualquer lugar ao redor do mundo.
 
 Recursos Principais:
