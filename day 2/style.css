@@ -8,6 +8,27 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background:black;
+    background:rgba(0, 0, 0, 0.891);
     padding: 18px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+
+.todo-app h2{
+    color: #000;
+    display: flex;
+    align-items: cneter;
+    margin-bottom: 20px;
+}
+
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
 }
