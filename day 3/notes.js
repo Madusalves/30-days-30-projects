@@ -2,6 +2,10 @@ const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 let notes = document.querySelector(".input-box");
 
+function updateStorage() {
+    localStorage.setItem("notes", notesContainer.innerHTML);
+}
+
 createBtn.addEventListener("click", () => {
     let inputBox = document.createElement("p");
     let img = document.querySelector("img");
@@ -15,5 +19,14 @@ createBtn.addEventListener("click", () => {
 notesContainer.addEventListener("click", function(e){
     if(e.target.tagName === "IMG"){
         e.target.parentElement.remove();
+        updateStorage();
+    }
+    else if(e.target.tagName === "p"){
+        notes = document.querySelector(".input-box");
+        notes.forEach(element => {
+            notes.okeyup = function(){
+                updateStorage();
+            }
+        });
     }
 })
