@@ -40,8 +40,8 @@ function showQuestion(){
     let questionNo = currentQuestion = 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    currentQuestion.answer.forEach(answer =>{
-        const button = document.createElement("button");
+    Array.from(currentQuestion.answer).forEach(answer =>{
+        const button = document.createElement("buttons");
         button.innerHTML= answer.text ;
         button.classList.add("btn");
         answerButton.appendChild(button); 
@@ -61,7 +61,7 @@ function showQuestion(){
 
     function selectAnswer(){
         const selectedBtn = e.target;
-        const isCorrect =selectedBtn.dataset.correct === "true";
+        const isCorrect = selectedBtn.dataset.correct === "true";
         if(isCorrect){
             selectedBtn.classList.add("correct");
         } else{
