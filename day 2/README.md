@@ -1,4 +1,6 @@
 # O aplicativo 'To-Do' oferece uma maneira eficaz de organizar e gerenciar tarefas em meio à agitação do dia a dia. 
+website: https://noteapp-madu.netlify.app/
+
 Com recursos como categorização, integração de calendários e lembretes personalizados, ele simplifica a gestão de compromissos e projetos. 
 Sua interface intuitiva e design agradável tornam a experiência do usuário agradável, permitindo acesso em vários dispositivos e facilitando a visualização das responsabilidades.
 
