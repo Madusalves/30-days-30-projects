@@ -48,10 +48,19 @@ body{
     height: 10px;
     background-color: #fff;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
+}
+
+.needle{
+    display:flex ;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .needle span{
     width: 5px;
-    height: var(--h);
+    height: var(--h); 
+    background-color:var(--clr) ;
+    position: absolute;
+    border-radius: 5px;
 }
