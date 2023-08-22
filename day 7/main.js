@@ -15,10 +15,8 @@ function show_clock(){
 
     //MÚSICA
     /*
-
     let sound = new Audio('');
     sound.play();
-
     */
 }
 
